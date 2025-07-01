@@ -106,18 +106,10 @@ O agente pode lidar tanto com perguntas predefinidas como com consultas autônom
 
 * Segurança no Prompting: Implementar validações e filtros no prompt para prevenir ataques de injeção de SQL ou tentativas maliciosas de apagar/modificar dados através do agente. Isso é crucial para garantir a segurança do banco de dados em um ambiente de produção.
 
-* Melhorias na Interface Streamlit: A interface apresentada em streamlit_prova.ipynb pode ser expandida para oferecer:
-
-* Um campo de entrada para perguntas mais interativo.
-
-* Exibição clara e formatada dos resultados.
-
-* Funcionalidades adicionais para feedback ou correção do usuário.
+* Melhorias na Interface Streamlit: A interface apresentada em streamlit_prova.ipynb pode ser expandida para oferecer funcionalidades adicionais para feedback ou correção do usuário
 
 * Testes Automatizados: Desenvolver um conjunto robusto de testes automatizados para validar a precisão das consultas SQL geradas e as respostas do agente, especialmente para cenários complexos de junção de tabelas e agregações.
 
 * Otimização do Prompt: Refinar o prompt fornecido ao LLM, incluindo exemplos de "few-shot learning" ou diretrizes mais específicas sobre os nomes das tabelas e colunas, para melhorar a acurácia na geração do SQL.
 
-* Tratamento de Erros Robusto: Implementar um tratamento de erros mais sofisticado para as consultas SQL, permitindo que o agente se recupere de erros comuns (como nomes de tabelas incorretos) e tente gerar uma nova consulta ou forneça feedback útil ao usuário.
-
-Desacoplamento de Credenciais: Reforçar a prática de carregar tokens de arquivos .env para segurança e portabilidade.
+*Desacoplamento de Credenciais: Reforçar a prática de carregar tokens de arquivos .env para segurança e portabilidade.
