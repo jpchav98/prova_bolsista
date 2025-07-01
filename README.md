@@ -29,15 +29,7 @@ Adicionalmente, para demonstrar a aplicabilidade e facilitar a interação, apre
 
 ### Como Executar o Código
 Para executar o projeto, siga os passos abaixo:
-
-Clone o Repositório:
-
-Bash
-
-git clone <URL_DO_SEU_REPOSITORIO>
-cd <SEU_REPOSITORIO>
-Instale as Dependências:
-O arquivo requirements.txt (ou o próprio notebook prueba_tecnica.ipynb) lista as dependências necessárias. Você pode instalá-las usando pip:
+O próprio notebook prueba_tecnica.ipynb lista as dependências necessárias. Você pode instalá-las usando pip:
 ```
 !pip install smolagents python-dotenv sqlalchemy --upgrade -q
 ```
